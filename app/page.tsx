@@ -1,19 +1,19 @@
 import Hero from "./components/Hero";
 import Vacancies from "./components/Vacancies";
 import ContractConditions from "./components/ContractConditions";
-import Algorithm from "./components/Algorithm";
 import Academy from "./components/Academy";
 import FAQ from "./components/FAQ";
+import Education from "./components/Education";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#173829]">
       <Hero />
-      <Vacancies />
       <ContractConditions />
-      <Algorithm />
-      <Academy />
       <FAQ />
+      <Vacancies />
+      <Education />
+      <Academy />
     </main>
   );
 }

@@ -4,11 +4,17 @@
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
+  background: #f7f7f2;
+  color: #10140f;
 }
 
 h1, h2, h3 {
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .green-accent {
@@ -25,4 +31,62 @@ h1, h2, h3 {
 .btn-primary:hover {
   background-color: #14532d;
   transform: translateY(-3px);
+}
+
+.rec-panel {
+  border: 1px solid rgba(27, 89, 50, 0.14);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 24px 80px rgba(20, 33, 20, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.rec-kicker {
+  color: #1b6b3a;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.rec-title {
+  color: #10140f;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.sta-btn {
+  position: relative;
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #b9b08d;
+  color: #123c24;
+  font-weight: 900;
+  line-height: 1.12;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.sta-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #b9b08d;
+  opacity: 1;
+  z-index: -1;
+  transition: opacity 0.2s ease;
+}
+
+.sta-btn:hover {
+  background: #c7bf9f;
+  color: #0f311d;
+  transform: translateY(-2px);
 }

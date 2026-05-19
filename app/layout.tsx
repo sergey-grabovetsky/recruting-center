@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ChatWidget from "./components/ChatWidget";   // ← Додаємо імпорт
+import ChatWidget from "./components/ChatWidget";
 
 const inter = Inter({ 
   subsets: ["latin", "cyrillic"],
@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Рекрутинговий центр | [Назва вашого загону] ДПСУ",
-  description: "Не бойові посади. Служба тільки в регіоні. Без ТЦК та СП.",
+  title: "Рекрутинговий центр ДПСУ | Одеська область",
+  description: "Консультація, підбір посади та супровід кандидатів на службу в підрозділах ДПСУ.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="uk">
       <body className={inter.className}>
         {children}
-        <ChatWidget /> 
+        <ChatWidget />
       </body>
     </html>
   );

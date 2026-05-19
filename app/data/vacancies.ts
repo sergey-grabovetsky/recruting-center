@@ -4,40 +4,70 @@ export type Vacancy = {
   location: string;
   salary: string;
   unit: string;
+  category: string;
+  source: string;
   coords: [number, number];
 };
 
 export const vacancies: Vacancy[] = [
   {
     id: 1,
-    title: "Прикордонник-інспектор",
-    location: "Одеса",
-    salary: "від 21 000 грн",
-    unit: "ВПС ",
+    title: "Молодша медична сестра",
+    location: "Одеська область",
+    salary: "за умовами підрозділу",
+    unit: "4 прикордонний загін ДПСУ",
+    category: "Медицина",
+    source: "https://lobbyx.army/?sector=bordercontrol",
     coords: [46.48397152646382, 30.74267694714583],
   },
   {
     id: 2,
-    title: "Водій",
-    location: "Вилкове",
-    salary: "від 23 000 грн",
-    unit: "ВПС ",
-    coords: [45.39887800410044, 29.591135715936264],
+    title: "Молодший інспектор прикордонної служби",
+    location: "Одеська область",
+    salary: "за умовами підрозділу",
+    unit: "Державна прикордонна служба України",
+    category: "Інспекторська служба",
+    source: "https://lobbyx.army/?sector=bordercontrol",
+    coords: [46.40922598037708, 30.087526469879194],
   },
   {
     id: 3,
-    title: "Оператор БПЛА",
-    location: "Ізмаїл",
-    salary: "від 25 000 грн",
-    unit: "ВПС ",
+    title: "Водій автомобільного відділення",
+    location: "Одеська область",
+    salary: "за умовами підрозділу",
+    unit: "17 прикордонний загін ДПСУ",
+    category: "Водії та логістика",
+    source: "https://lobbyx.army/?sector=bordercontrol",
     coords: [45.350888410401176, 28.849857169499558],
   },
   {
     id: 4,
-    title: "Слюсар-електрик",
-    location: "Паланка",
-    salary: "від 22 000 грн",
-    unit: "ВПС ",
-    coords: [46.40922598037708, 30.087526469879194],
+    title: "Оператор розвідувального БПЛА",
+    location: "Україна",
+    salary: "за умовами підрозділу",
+    unit: "10 мобільний прикордонний загін ДПСУ",
+    category: "БПЛА",
+    source: "https://lobbyx.army/?sector=bordercontrol",
+    coords: [46.48397152646382, 30.74267694714583],
+  },
+  {
+    id: 5,
+    title: "Зовнішній пілот БПЛА",
+    location: "Україна",
+    salary: "за умовами підрозділу",
+    unit: "10 мобільний прикордонний загін ДПСУ",
+    category: "БПЛА",
+    source: "https://lobbyx.army/?sector=bordercontrol",
+    coords: [46.48397152646382, 30.74267694714583],
+  },
+  {
+    id: 6,
+    title: "Фахівець із радіотехнічної розвідки",
+    location: "Україна",
+    salary: "за умовами підрозділу",
+    unit: "Державна прикордонна служба України",
+    category: "Зв'язок і розвідка",
+    source: "https://lobbyx.army/?sector=bordercontrol",
+    coords: [46.48397152646382, 30.74267694714583],
   },
 ];

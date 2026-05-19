@@ -26,7 +26,7 @@ export default function Academy() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="rec-kicker text-[#b9b08d]">Наші рекрутингові підрозділи</p>
-            <h2 className="rec-title mt-4 text-4xl leading-tight text-white md:text-6xl">
+            <h2 className="rec-title mt-4 text-4xl leading-tight text-[#b9b08d] md:text-6xl">
               Зв&apos;яжіться з рекрутинговим підрозділом
             </h2>
             <p className="mt-5 text-lg leading-8 text-[#c0c9bb]">

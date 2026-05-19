@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  background: #173829;
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background: #f7f7f2;
+  margin: 0;
+  padding: 6px;
+  background: #173829;
   color: #10140f;
 }
 
 h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 0;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .green-accent {
@@ -49,7 +52,6 @@ html {
 }
 
 .rec-title {
-  color: #10140f;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -62,6 +64,7 @@ html {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  border-radius: 999px;
   background: #b9b08d;
   color: #123c24;
   font-weight: 900;

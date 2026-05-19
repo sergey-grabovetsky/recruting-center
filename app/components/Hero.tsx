@@ -1,7 +1,7 @@
 const navItems = [
   { label: "Рекрутингові підрозділи", href: "#contacts" },
   { label: "Пошук вакансій", href: "#vacancies" },
-  { label: "Важливі питання", href: "#faq" },
+  { label: "Важливі питання", href: "/faq" },
 ];
 
 const heroImage =

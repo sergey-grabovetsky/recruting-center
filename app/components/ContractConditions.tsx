@@ -23,7 +23,7 @@ export default function ContractConditions() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="mx-auto max-w-4xl border-y border-[#b9b08d]/55 py-8 text-center">
           <p className="rec-kicker text-[#b9b08d]">Що пропонує ДПСУ</p>
-          <h2 className="rec-title mt-3 text-4xl leading-tight text-white md:text-6xl">
+          <h2 className="rec-title mt-3 text-4xl leading-tight text-[#b9b08d] md:text-6xl">
             Долучайся до Державної прикордонної служби України
           </h2>
         </div>

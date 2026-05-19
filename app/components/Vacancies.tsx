@@ -58,7 +58,7 @@ export default function Vacancies() {
             href="https://lobbyx.army/?sector=bordercontrol"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex min-w-64 items-center justify-center bg-[#b9b08d] px-8 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#102819] transition hover:bg-[#c9c09d]"
+            className="sta-btn w-[220px] px-8 py-4 text-sm tracking-[0.12em]"
           >
             Показати ще
           </a>
